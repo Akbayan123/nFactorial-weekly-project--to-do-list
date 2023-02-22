@@ -149,7 +149,7 @@ return(
               )}
           </div>
     </div>
-    <h1 className='headerName'>{(type === "todo") ? "To Do" : (type === "done") ? "Done" : (type === "trash") ? "Trash" : "Я не знаю такой раздел!"}</h1> 
+    <h1 className='headerName'>{(type === "todo") ? "To Do" : (type === "done") ? "Done" : (type === "trash") ? "Trash" : "not"}</h1> 
     <hr></hr>
     <ul className="todo-list">
     {filteredItems.map((item) => (
