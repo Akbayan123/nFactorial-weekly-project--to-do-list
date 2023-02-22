@@ -1,0 +1,169 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pager {
+    padding: 100px  0 70px;
+}
+
+.buttons {
+    width: 91%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.todo_buttons {
+    background: rgba(8, 30, 52, 0.05), #F0F0F0;
+    margin-right: 20px;
+    width: 90px;
+    height: 43px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+}
+
+.todo_buttons:focus{
+    background: #081e346b;
+    color: #ffff;
+    font-weight: 600
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+}
+
+.plus_button{
+    background-color: black;
+    border-radius: 100px;
+    width: 54px;
+    height: 54px;
+    border: none;
+}
+
+.plus_img {
+    width: 26px;
+    height: 26px;
+}
+
+.modal_add{
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    height: 244px;
+    border-radius: 12px;
+    background-color: rgba(240, 240, 240, 1);
+    position: absolute;
+    top: 150px;
+    right: 8%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.add_title{
+    margin-left: 22px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.add_input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    width: 85%;
+    height: 120px;
+    border-radius: 8px;
+    border: none;
+}
+
+.add_button{
+    margin-left: 20px;
+    width: 76px;
+    height: 40px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 100px;
+}
+
+.headerName{
+    margin: auto;
+    width: 91%;
+    margin-bottom: 25px;
+}
+hr {
+    width: 91%;
+    height: 3px;
+    background: #151517;
+    opacity: 0.2;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.todo-checkbox {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+.item-list p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #959595;
+}
+
+.list__more img{
+    width: 5px;
+    height: 13px;
+}
+
+.list_trash {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 240px;
+    height: 48px;
+    background: #E4E6E7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 12px;
+}
+
+.trashButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 240px;
+    height: 82px;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+
+.toDoBtn {
+    border: none;
+    background: #E4E6E7;
+    margin-bottom: 10px;
+}
+
+.todo-list {
+    width: 91%;
+    margin: auto;
+    margin-top: 30px;
+}
